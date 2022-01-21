@@ -1,0 +1,18 @@
+{
+    "routes": [
+      {
+        "route": "/lnkdn",
+        "redirect": "https://www.linkedin.com/in/stijncallebaut/",
+        "statusCode": 301
+      }
+    ],
+    "navigationFallback": {
+      "rewrite": "index.html",
+      "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+    },
+    "responseOverrides": {
+    },
+    "globalHeaders": {
+      "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
+    }
+  }

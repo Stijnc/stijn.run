@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+body {
+    transition: background 2s ease;
+    background: rgb(232, 241, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color:rgb(66, 67, 68)
+}
+main p {
+    font-size: 1.5em;
+    align-content: center;
+    text-align: center;
+}
