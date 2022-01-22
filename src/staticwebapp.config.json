@@ -39,6 +39,11 @@
 			"route": "/VmMmg",
 			"redirect": "https://bing.com",
 			"statusCode": 301
+		},
+		{
+			"route": "/me",
+			"redirect": "https://callebaut.io",
+			"statusCode": 301
 		}
 	],
 	"navigationFallback": {
