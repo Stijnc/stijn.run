@@ -44,6 +44,11 @@
 			"route": "/me",
 			"redirect": "https://callebaut.io",
 			"statusCode": 301
+		},
+		{
+			"route": "/home",
+			"redirect": "https://callebaut.io",
+			"statusCode": 301
 		}
 	],
 	"navigationFallback": {
