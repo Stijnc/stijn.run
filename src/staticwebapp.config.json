@@ -34,6 +34,11 @@
 			"route": "/foAzs",
 			"redirect": "https://bing.be",
 			"statusCode": 301
+		},
+		{
+			"route": "/VmMmg",
+			"redirect": "https://bing.com",
+			"statusCode": 301
 		}
 	],
 	"navigationFallback": {
