@@ -1,0 +1,12 @@
+{
+    "homepage": "https://callebaut.dev",
+    "dependencies": {
+        "asweb-shortener": "^1.0.0"
+    },
+    "config": {
+        "appLocation": "src"
+    },
+    "scripts": {
+        "shorten": "asweb-shortener"
+    }
+}
