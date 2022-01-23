@@ -54,11 +54,6 @@
 			"route": "/tw",
 			"redirect": "https://twitter.com/stijnca",
 			"statusCode": "301"
-		},
-		{
-			"route": "/tw",
-			"redirect": "https://twitter.com/stijnca",
-			"statusCode": "301"
 		}
 	],
 	"navigationFallback": {
