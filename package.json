@@ -1,7 +1,8 @@
 {
     "homepage": "https://callebaut.dev",
     "dependencies": {
-        "asweb-shortener": "^1.0.0"
+        "asweb-shortener": "file:../sca.asweb-shortener",
+        "read-pkg-up": "^7.0.1"
     },
     "config": {
         "appLocation": "src"
