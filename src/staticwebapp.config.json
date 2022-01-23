@@ -54,6 +54,11 @@
 			"route": "/tw",
 			"redirect": "https://twitter.com/stijnca",
 			"statusCode": "301"
+		},
+		{
+			"route": "/ln",
+			"redirect": "https://www.linkedin.com/in/stijncallebaut/",
+			"statusCode": "301"
 		}
 	],
 	"navigationFallback": {
