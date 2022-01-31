@@ -68,6 +68,9 @@
 			"/css/*"
 		]
 	},
+	"mimeTypes": {
+    		".json": "text/json"
+  	},
 	"responseOverrides": {},
 	"globalHeaders": {
 		"content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
