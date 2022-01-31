@@ -6,41 +6,6 @@
 			"statusCode": 301
 		},
 		{
-			"route": "/dyKLf",
-			"redirect": "https://google.com",
-			"statusCode": "301"
-		},
-		{
-			"route": "/dfyLD",
-			"redirect": "https://google.com",
-			"statusCode": "301"
-		},
-		{
-			"route": "/sqMwZ",
-			"redirect": "https://google.com",
-			"statusCode": "301"
-		},
-		{
-			"route": "/cVJ74",
-			"redirect": "https://google.be",
-			"statusCode": "301"
-		},
-		{
-			"route": "/ZaKGm",
-			"redirect": "https://bing.be",
-			"statusCode": 301
-		},
-		{
-			"route": "/foAzs",
-			"redirect": "https://bing.be",
-			"statusCode": 301
-		},
-		{
-			"route": "/VmMmg",
-			"redirect": "https://bing.com",
-			"statusCode": 301
-		},
-		{
 			"route": "/me",
 			"redirect": "https://callebaut.io",
 			"statusCode": 301
@@ -53,12 +18,17 @@
 		{
 			"route": "/tw",
 			"redirect": "https://twitter.com/stijnca",
-			"statusCode": "301"
+			"statusCode": 301
 		},
 		{
 			"route": "/ln",
 			"redirect": "https://www.linkedin.com/in/stijncallebaut/",
-			"statusCode": "301"
+			"statusCode": 301
+		},
+		{
+			"route": "/gh",
+			"redirect": "https://github.com/stijnc",
+			"statusCode": 301
 		}
 	],
 	"navigationFallback": {
