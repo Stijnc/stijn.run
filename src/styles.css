@@ -28,6 +28,7 @@ main p {
 section #shorturl {
   display: block;
   color: rgb(66, 67, 68);
+  margin-top: 1.5em;
 }
 
 section h2 {
