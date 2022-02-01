@@ -22,6 +22,10 @@ h1 {
   font-size: 3em;
   color: rgb(66, 67, 68);
 }
+h1 a {
+  text-decoration: dashed;
+  color: rgb(66, 67, 68);
+}
 
 main p {
   font-size: 1em;
