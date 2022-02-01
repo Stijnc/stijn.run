@@ -39,6 +39,11 @@
 			"route": "/tD8aS",
 			"redirect": "https://callebaut.io",
 			"statusCode": "301"
+		},
+		{
+			"route": "/jegqo",
+			"redirect": "https://callebaut.io",
+			"statusCode": "301"
 		}
 	],
 	"navigationFallback": {
