@@ -23,15 +23,14 @@ You can add a link by modifying ```staticwebapp.config.json``` where ```route```
 ## Use aswa-shortener
 
 Instead of manually updating your ``` staticwebapp.config.json ``` file, you could also use the aswa-shortener npm package.
-Aswa (Azure Static Web App) shortener automatically generates a short code and checks if your route already exists. It will also push your changes to your origin, triggering a build of your Azure Static Web App.
+[Aswa (Azure Static Web App) shortener](https://github.com/Stijnc/aswa-shortener) automatically generates a short code and checks if your route already exists. It will also push your changes to your origin, triggering a build of your Azure Static Web App.
 
 > Note: It takes a minute or to for the build to complete, so your shortcode is not available in real-time.
 
-```
- 
- HERE COMES A GIF WITH THE WORKING SOLUTION
 
-```
+ 
+![Azure static web apps URL shortener](./src/aswa-shortener.svg)
+
 
 ## Is this a fit for me?
 
