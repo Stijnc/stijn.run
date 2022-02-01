@@ -29,6 +29,11 @@
 			"route": "/gh",
 			"redirect": "https://github.com/stijnc",
 			"statusCode": 301
+		},
+		{
+			"route": "/HqRfB",
+			"redirect": "https://callebaut.io",
+			"statusCode": "301"
 		}
 	],
 	"navigationFallback": {
@@ -39,8 +44,8 @@
 		]
 	},
 	"mimeTypes": {
-    		".json": "text/json"
-  	},
+		".json": "text/json"
+	},
 	"responseOverrides": {},
 	"globalHeaders": {
 		"content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"

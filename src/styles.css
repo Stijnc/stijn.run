@@ -30,7 +30,7 @@ main p {
 }
 
 table {
-  border: dashed;
+  border: none;
   min-width: 35%;
   margin-left: auto;
   margin-right: auto;
@@ -48,4 +48,14 @@ figure {
   display: block;
   margin: 0 auto 0.55em;
   width: 80%;
+}
+
+img {
+  margin-top: 2em;
+  width: 450px;
+  border-radius: 2%;
+}
+
+figcaption {
+  text-align: center;
 }
