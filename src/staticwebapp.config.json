@@ -62,7 +62,7 @@
     },
     "responseOverrides": {},
     "globalHeaders": {
-        "content-security-policy": "upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' fonts.gstatic.com; form-action 'self'; frame-src 'self'; img-src 'self' https: ; object-src 'none'; style-src 'self'  'unsafe-inline'; script-src 'self', *.vo.msecnd.net, https://code.iconify.design/* 'unsafe-inline'; prefetch-src 'self';",
+        "content-security-policy": "upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' fonts.gstatic.com fonts.googleapis.com; form-action 'self'; frame-src 'self'; img-src 'self' https: fonts.gstatic.com; object-src 'none'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; script-src 'self', *.vo.msecnd.net, https://code.iconify.design/ https://api.iconify.design/ https://api.simplesvg.com/ https://api.unisvg.com/ 'unsafe-inline'; prefetch-src 'self'; connect-src 'fonts.googleapis.com' 'fonts.gstatic.com;'",
         "cache-control": "must-revalidate, max-age=604800",
         "x-frame-options": "DENY",
         "x-Content-Type-Options": "nosniff",
