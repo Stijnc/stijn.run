@@ -64,7 +64,7 @@
     "globalHeaders": {
         "content-security-policy": "upgrade-insecure-requests; block-all-mixed-content; default-src 'none'; child-src 'self'; font-src 'self' fonts.gstatic.com fonts.googleapis.com; form-action 'self'; frame-src 'self'; img-src 'self' https: fonts.gstatic.com; object-src 'none'; style-src 'self' fonts.googleapis.com; script-src 'self' code.iconify.design api.iconify.design api.simplesvg.com api.unisvg.com ; prefetch-src 'self'; connect-src fonts.googleapis.com fonts.gstatic.com; base-uri 'none';frame-ancestors 'none';",
         "cache-control": "must-revalidate, max-age=604800",
-        "Strict-Transport-Security": "max-age=15768000",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
         "x-frame-options": "DENY",
         "x-Content-Type-Options": "nosniff",
         "x-xss-Protection": "1; mode=block",
