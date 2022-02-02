@@ -67,6 +67,6 @@
         "x-frame-options": "DENY",
         "x-Content-Type-Options": "nosniff",
         "x-xss-Protection": "1; mode=block",
-        "Referrer-Policy": "strict-origin-when-cross-origin"
+        "Referrer-Policy": "Access-Control-Allow-Origin"
     }
 }
