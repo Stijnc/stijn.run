@@ -62,8 +62,8 @@
     },
     "responseOverrides": {},
     "globalHeaders": {
-        "content-security-policy": "upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' fonts.gstatic.com fonts.googleapis.com; form-action 'self'; frame-src 'self'; img-src 'self' https: fonts.gstatic.com; object-src 'none'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; script-src 'self' code.iconify.design api.iconify.design api.simplesvg.com api.unisvg.com 'unsafe-inline'; prefetch-src 'self'; connect-src fonts.googleapis.com fonts.gstatic.com;",
-        "cache-control": "must-revalidate, max-age=604800",
+        "content-security-policy": "upgrade-insecure-requests; block-all-mixed-content; default-src 'none'; child-src 'self'; font-src 'self' fonts.gstatic.com fonts.googleapis.com; form-action 'self'; frame-src 'self'; img-src 'self' https: fonts.gstatic.com; object-src 'none'; style-src 'self' fonts.googleapis.com ; script-src 'self' code.iconify.design api.iconify.design api.simplesvg.com api.unisvg.com ; prefetch-src 'self'; connect-src fonts.googleapis.com fonts.gstatic.com; base-uri 'none';",
+        "cache-control": "must-revalidate, max-age=15768000",
         "x-frame-options": "DENY",
         "x-Content-Type-Options": "nosniff",
         "x-xss-Protection": "1; mode=block",
