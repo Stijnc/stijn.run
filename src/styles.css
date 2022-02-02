@@ -22,6 +22,7 @@ h1 {
   font-size: 3em;
   color: rgb(66, 67, 68);
 }
+
 h1 a {
   text-decoration: dashed;
   color: rgb(66, 67, 68);
@@ -62,4 +63,8 @@ img {
 
 figcaption {
   text-align: center;
+}
+
+span.iconify {
+  color: #424344;
 }
