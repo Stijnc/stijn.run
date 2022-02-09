@@ -81,6 +81,7 @@ figcaption {
   text-align: center;
 }
 
-span.iconify {
-  color: #424344;
+.fa-solid,
+.fa-brands {
+  color: rgb(66, 67, 68);
 }
