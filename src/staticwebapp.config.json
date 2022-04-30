@@ -54,6 +54,11 @@
 			"route": "/daring100ans",
 			"redirect": "https://1drv.ms/u/s!AgKpOpziLzahro4K8nqGLZ8ioa_8Yg?e=n9uNq8",
 			"statusCode": "301"
+		},
+		{
+			"route": "/summerstage2022",
+			"redirect": "https://forms.office.com/r/KgtQMExxWV",
+			"statusCode": "301"
 		}
 	],
 	"navigationFallback": {
