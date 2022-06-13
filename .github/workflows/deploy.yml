@@ -33,18 +33,18 @@ jobs:
           api_location: "" # Api source code path relative to repository root - optional
           output_location: "public" # Built app content directory, relative to app_location - optional
           ###### End of Repository/Build Configurations ######
-      - name: Get short SHA
-        id: slug
-        run: echo "::set-output name=sha8::$(echo ${GITHUB_SHA} | cut -c1-8)"
-      - name: Annotate deployment
-        uses: wictorwilen/application-insights-action@v1
-        id: annotation
-        with:
-          applicationId: ${{ secrets.APP_INSIGHTS_ID }}
-          apiKey: ${{secrets.APP_INSIGHTS_API_KEY}}
-          releaseName: ${{ steps.slug.outputs.sha8 }}
-          message: ${{ github.event.head_commit.message }}
-          actor: ${{ github.actor }}
+      # - name: Get short SHA
+      #   id: slug
+      #   run: echo "::set-output name=sha8::$(echo ${GITHUB_SHA} | cut -c1-8)"
+      # - name: Annotate deployment
+      #   uses: wictorwilen/application-insights-action@v1
+      #   id: annotation
+      #   with:
+      #     applicationId: ${{ secrets.APP_INSIGHTS_ID }}
+      #     apiKey: ${{secrets.APP_INSIGHTS_API_KEY}}
+      #     releaseName: ${{ steps.slug.outputs.sha8 }}
+      #     message: ${{ github.event.head_commit.message }}
+      #     actor: ${{ github.actor }}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
